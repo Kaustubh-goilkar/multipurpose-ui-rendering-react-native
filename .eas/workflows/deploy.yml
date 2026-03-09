@@ -1,0 +1,11 @@
+name: Deploy Web on Merge
+on:
+  push:
+    branches: ['main']
+jobs:
+  deploy_web:
+    type: deploy
+    name: Deploy to EAS Hosting
+    environment: production
+    params:
+      prod: true
