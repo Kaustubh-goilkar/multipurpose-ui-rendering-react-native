@@ -2,14 +2,16 @@
   "name": "multipurpose-ui-rendering-react-native",
   "version": "1.0.0",
   "main": "index.ts",
-  "homepage": "https://Kaustubh-goilkar.github.io/multipurpose-ui-rendering-react-native",
+  "homepage": "https://Kaustubh-g oilkar.github.io/multipurpose-ui-rendering-react-native",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "predeploy": "npx expo export --platform web",
-    "deploy": "gh-pages -d dist"
+  
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d web-build",
+  "build": "expo build:web"
   },
   "dependencies": {
     "@expo/metro-runtime": "~55.0.6",
