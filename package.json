@@ -2,7 +2,7 @@
   "name": "multipurpose-ui-rendering-react-native",
   "version": "1.0.0",
   "main": "index.ts",
-  "homepage": "https://Kaustubh-goilkar.github.io/multipurpose-ui-rendering-react-native",
+  "homepage": "https://kaustubh-goilkar.github.io/multipurpose-ui-rendering-react-native",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
