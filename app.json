@@ -12,7 +12,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kaustubh05.multipurposeuirenderingreactnative",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -21,7 +25,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.kaustubh05.multipurposeuirenderingreactnative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -30,6 +35,9 @@
       "eas": {
         "projectId": "4ec7c938-4777-4045-a505-032a8414b0d0"
       }
+    },
+    "experiments": {
+      "baseUrl": "/multipurpose-ui-rendering-react-native"
     }
   }
 }
